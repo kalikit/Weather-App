@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top,  rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.666)), url("image/bg.jpg"), center, no-repeat ;  
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid gray;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.spring{
+    background: url('image/spring.jpg') no-repeat;
+    border: 1px solid gray;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.summer{
+    background: url('image/summer.jpg') no-repeat;
+    border: 1px solid gray;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.autum{
+    background: url('image/autum.jpg') no-repeat;
+    border: 1px solid gray;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.dong{
+    background: url('image/dong.jpg') no-repeat;
+    border: 1px solid gray;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.search {
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+input[type="search"] {
+    outline: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 280px;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.fa-search{
+    
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.tempature {
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px rgb(67, 66, 65);
+    margin: 30px auto;
+    width: 140px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    opacity: 0.8;
+}
+
+.cloud {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+}
+
+.infor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.visibility,
+.wind,
+.humid {
+    text-align: center;
+}
+
+/*------------------------------*/
+.fa-temperature-low {
+    display: none;
+}
+
+.hideContent {
+    visibility: hidden;
+
+}
+
+.containerAppear {
+    border: 1px solid gray;
+    background: url("image/error.jpg") no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 23px;
+    transition: 0.4s;
+}
+
+.alert {
+    display: none;
+}

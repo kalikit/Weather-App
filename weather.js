@@ -85,7 +85,7 @@ function dataWeather(locationSearch) {
           number_humid.innerText = data.main.humidity + "%";
           number_feellike.innerText =  Math.ceil(data.main.feels_like - 273.15)+ " °C";
           number_pressure.innerText = data.main.pressure + "hPa";
-          //number_sunrise.innerText = data.sys.sunrise;
+          number_sunrise.innerText = data.main.uvi ? data.main.uvi : "0";
 
           if (getTemp < 10) {
             container.setAttribute('class', 'dong');

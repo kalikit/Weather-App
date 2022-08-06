@@ -114,4 +114,4 @@ search.onclick = function () {
   dataWeather(valueSearch);
 };
 setInterval(time(), 1000);
-dataWeather("phu tho");
+dataWeather("ha noi");
